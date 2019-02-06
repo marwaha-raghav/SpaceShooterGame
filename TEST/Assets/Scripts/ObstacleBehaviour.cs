@@ -16,7 +16,7 @@ public class ObstacleBehaviour : MonoBehaviour {
         ObstX= GetComponent<Transform>().position.x;
         ObstcY = GetComponent<Transform>().position.y;
         obstaclePos = new Vector3(ObstX, ObstcY, ObstcZ);
-       
+        Spawn();
        
     }
     Vector3 ReturnRandomLocation(Transform[] ObstacleLocList)
@@ -37,16 +37,16 @@ public class ObstacleBehaviour : MonoBehaviour {
 
     }
 	
-	// Update is called once per frame
-	void Update () {
+	
+	
       
-
-        float clk = ObstacleTimer();
-        Debug.Log("clock" + clk);
-        if (clk%2==0 && clk%3==0 &&clk>200)
-        {
+    void Spawn()
+    { 
+      // float clk = ObstacleTimer();
+        
             Instantiate(Rock, ReturnRandomLocation(ObstacleLocList), Quaternion.identity);
             
-        }
+        
+        Invoke("Spawn", 0.5f);
     }
 }

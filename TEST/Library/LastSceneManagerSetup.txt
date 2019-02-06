@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/work_final_maybe.unity
+- path: Assets/Scenes/try.unity
   isLoaded: 1
   isActive: 1
