@@ -9,7 +9,7 @@ public class ObstacleBehaviour : MonoBehaviour {
     public Transform[] ObstacleLocList;
     private float ObstX, ObstcY, ObstcZ;
     private float clock = 0;
-
+    private float HealthPoints = 10f;
     // Use this for initialization
     void Start () {
         ObstcZ = -1;
@@ -39,7 +39,6 @@ public class ObstacleBehaviour : MonoBehaviour {
 	
 	
 	
-      
     void Spawn()
     { 
       // float clk = ObstacleTimer();
@@ -48,5 +47,9 @@ public class ObstacleBehaviour : MonoBehaviour {
             
         
         Invoke("Spawn", 0.5f);
+    }
+   public  float  ObstacleHealth()
+    {
+        return HealthPoints;
     }
 }

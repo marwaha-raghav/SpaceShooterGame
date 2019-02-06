@@ -10,6 +10,7 @@ public class KillScript : MonoBehaviour {
         if(collision.tag=="Player")
         {
             Debug.Log("GameOver");
+            Application.LoadLevel("try");
         }
     }
 }

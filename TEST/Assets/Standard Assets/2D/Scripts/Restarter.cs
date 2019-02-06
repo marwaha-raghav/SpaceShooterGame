@@ -14,7 +14,7 @@ namespace UnityStandardAssets._2D
                 
              
                 
-                    print("working");
+                    
                     SceneManager.LoadScene(SceneManager.GetSceneAt(0).name);
                 
             }
