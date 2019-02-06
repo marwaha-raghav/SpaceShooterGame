@@ -16,7 +16,7 @@ public class Spin : MonoBehaviour {
     void Update() {
         
         transform.Rotate(-Vector3.Cross(Vector3.up, Vector3.right) * RotateSpeed * Time.deltaTime);
-        transform.position = transform.position + new Vector3(0, 0.02f,0); //to give vertical velocity to player
+        //transform.position = transform.position + new Vector3(0, 0.02f,0); //to give vertical velocity to player
     }
     
 }
