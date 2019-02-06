@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\DestroyerScript.cs" />
     <Compile Include="Assets\Scripts\Game.cs" />
     <Compile Include="Assets\Scripts\NEW.cs" />
+    <Compile Include="Assets\Scripts\ObstacleBehaviour.cs" />
     <Compile Include="Assets\Scripts\Scroller.cs" />
     <Compile Include="Assets\Scripts\SpawnScript.cs" />
     <Compile Include="Assets\Scripts\Spin.cs" />
