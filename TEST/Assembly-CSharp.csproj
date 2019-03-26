@@ -59,13 +59,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\KillScript.cs" />
+    <Compile Include="Assets\GameLevels.cs" />
+    <Compile Include="Assets\ScoreScript.cs" />
     <Compile Include="Assets\Scripts\Attach.cs" />
     <Compile Include="Assets\Scripts\BackRepeat.cs" />
     <Compile Include="Assets\Scripts\BH.cs" />
     <Compile Include="Assets\Scripts\CameraFollower.cs" />
     <Compile Include="Assets\Scripts\DestroyerScript.cs" />
     <Compile Include="Assets\Scripts\Game.cs" />
+    <Compile Include="Assets\Scripts\KillScript.cs" />
     <Compile Include="Assets\Scripts\NEW.cs" />
     <Compile Include="Assets\Scripts\ObstacleBehaviour.cs" />
     <Compile Include="Assets\Scripts\Scroller.cs" />
